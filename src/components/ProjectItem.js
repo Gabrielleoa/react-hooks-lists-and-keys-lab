@@ -6,6 +6,8 @@ function ProjectItem({ name, about, technologies }) {
       <h3 key={name}>{name}</h3>
       <p key={about}>{about}</p>
       <div className="technologies" key={technologies}>
+        
+        <span key={projects.id}>{technologies}</span>
         {/* render a <span> for each technology in the technologies array */
       <span>{technologies}</span>
         }
